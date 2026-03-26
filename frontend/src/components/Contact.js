@@ -4,10 +4,6 @@ import '../styles/Contact.css';
 const Contact = ({ cvData }) => {
   if (!cvData) return null;
 
-  const handleEmailClick = () => {
-    window.location.href = `mailto:${cvData.personal.email}`;
-  };
-
   return (
     <section id="contact" className="contact">
       <div className="section-container">

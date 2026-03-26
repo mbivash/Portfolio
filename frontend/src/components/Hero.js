@@ -66,10 +66,13 @@ const Hero = ({ cvData }) => {
 
     window.addEventListener('resize', handleResize);
 
+    // Capture the container element for cleanup
+    const containerElement = containerRef.current;
+
     return () => {
       window.removeEventListener('resize', handleResize);
-      if (containerRef.current && renderer.domElement.parentNode === containerRef.current) {
-        containerRef.current.removeChild(renderer.domElement);
+      if (containerElement && renderer.domElement.parentNode === containerElement) {
+        containerElement.removeChild(renderer.domElement);
       }
     };
   }, [cvData]);
