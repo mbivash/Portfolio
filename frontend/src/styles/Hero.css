@@ -26,6 +26,24 @@
   100% { transform: translate(50px, 50px); }
 }
 
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(0,212,255,0.7), transparent);
+  animation: codeTicker 2.5s linear infinite;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+@keyframes codeTicker {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
 .hero-3d-container {
   position: absolute;
   top: 0;
