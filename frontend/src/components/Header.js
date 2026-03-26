@@ -8,8 +8,11 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <span className="logo-icon">🚀</span>
-          <span className="logo-text">BIVASH MONDAL</span>
+          <span className="logo-icon">�</span>
+          <div>
+            <span className="logo-text">BIVASH MONDAL</span>
+            <p className="logo-tagline">IT Developer • Web Engineer • Cloud-Centric</p>
+          </div>
         </div>
         <nav className={`nav ${mobileMenuOpen ? 'open' : ''}`}>
           <a href="#home">Home</a>

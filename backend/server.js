@@ -18,7 +18,7 @@ const cvData = {
     dob: "2001-06-28",
     linkedin: "linkedin.com/in/bivash-mondal-676932238"
   },
-  about: "Motivated Full-Stack Developer with hands-on knowledge of React.js, Node.js, and JavaScript. Experienced in building responsive user interfaces, basic backend services, and integrating REST APIs through academic and personal projects. Eager to learn, contribute to real-world applications, and grow in a professional development environment.",
+  about: "IT Professional and Web Developer with proven experience designing, coding, and deploying modern web applications. Expert in front-end UI/UX, back-end REST APIs, and full-stack system integration with strong emphasis on performance, security, and maintainability. Passionate about solving real-world problems through software, automation, and continuous improvement.",
   education: [
     {
       id: 1,

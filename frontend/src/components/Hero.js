@@ -83,10 +83,10 @@ const Hero = ({ cvData }) => {
     <section id="home" className="hero">
       <div className="hero-3d-container" ref={containerRef}></div>
       <div className="hero-content">
-        <div className="hero-badge">Welcome to my portfolio</div>
-        <h1 className="hero-name">{cvData.personal.name}</h1>
-        <p className="hero-title">Full-Stack Developer • Cyber Security Enthusiast</p>
-        <p className="hero-bio">Crafting innovative solutions with React, Node.js, and modern web technologies</p>
+      <div className="hero-badge">I am an IT professional</div>
+      <h1 className="hero-name">{cvData.personal.name}</h1>
+      <p className="hero-title">Web Developer • Software Creator • System Builder</p>
+      <p className="hero-bio">Building scalable web apps, automating workflows, and securing systems with full-stack code craftsmanship</p>
         <div className="hero-cta">
           <a href="#contact" className="btn btn-primary">Get In Touch</a>
         </div>
