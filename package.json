@@ -1,0 +1,11 @@
+{
+  "name": "cv-3d-portfolio",
+  "version": "1.0.0",
+  "description": "3D Interactive CV Portfolio with React, Node.js, and Three.js",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  }
+}
